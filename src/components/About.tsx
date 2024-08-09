@@ -1,4 +1,3 @@
-import React from 'react'
 import Button from './Button'
 //p-8 flex bg-red-700 h-screen  flex flex-col items-center justify-center
 export default function About() {

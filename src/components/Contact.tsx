@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 
 export default function Contact() {
   return (
@@ -30,26 +30,26 @@ export default function Contact() {
             </div>
           </div>
           {/* Form */}
-          <div className="mt-12 bg-rose-100 p-8 rounded-lg shadow-md">
+          <div className="mt-12 bg-rose-50 p-8 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-gray-900 mb-6 text-center">Envíanos un mensaje</h3>
             <form className="space-y-6">
 
               <label className="block text-center font-bold text-rose-900 ">Nombre</label>
                 <input
                   type="text"
-                  className="w-full rounded-full border-rose-200 bg-gray-100 p-4 pe-32 text-sm font-medium text-rose-900"
+                  className="w-full rounded-full border-rose-200 bg-zinc-50 p-4 pe-32 text-sm font-medium text-rose-900"
                   placeholder="Introduce tu nombre"
                 />
              
              <label className="block text-center font-bold text-rose-900 ">Correo Electronico</label>
                 <input
                   type="email"
-                  className="w-full rounded-full border-rose-200 bg-gray-100 p-4 pe-32 text-sm font-medium text-rose-900"
+                  className="w-full rounded-full border-rose-200 bg-zinc-50 p-4 pe-32 text-sm font-medium text-rose-900"
                   placeholder="Introduce tu correo"
                 />
               <label className="block text-center font-bold text-rose-900 ">Mensaje</label>
                 <textarea
-                  className="form-textarea w-full rounded-md border-rose-200 bg-gray-100 p-4 pe-32 text-sm font-medium text-rose-900"
+                  className="form-textarea w-full rounded-md border-rose-200 bg-zinc-50 p-4 pe-32 text-sm font-medium text-rose-900"
                   placeholder="Introduce tu mensaje"
                   rows={4}
                 ></textarea>

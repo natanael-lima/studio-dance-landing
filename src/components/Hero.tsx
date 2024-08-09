@@ -1,4 +1,4 @@
-import React from 'react'
+
 import '../index.css'; // Asegúrate de importar el archivo CSS aquí
 import danceBanner from '../assets/images/hero2.png'; // Ajusta la ruta si es necesario
 import Button from './Button';

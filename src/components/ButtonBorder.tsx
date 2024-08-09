@@ -1,4 +1,4 @@
-import React from 'react'
+
 // Define la interfaz para los props del componente
 interface ButtonBorderProps {
     content: string;
