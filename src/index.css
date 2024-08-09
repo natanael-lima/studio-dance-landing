@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hero-container {
+  position: relative;
+  height: 100vh; /* Altura completa de la vista */
+  width: 100%; /* Ancho completo */
+  overflow: hidden; /* Oculta cualquier contenido que se desborde del contenedor */
+  background: linear-gradient(100deg,#ffe1e1,#feffe7);
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left:30%;
+  transform: translate(-50%, -50%); /* Centra el contenido vertical y horizontalmente */
+  text-align: center; /* Centra el texto */
+  color: rgb(110, 110, 110); /* Ajusta el color del texto para que sea visible sobre el fondo */
+  z-index: 2; /* Asegura que el contenido esté sobre la superposición */
+}
+
+.hero-image {
+  position: absolute;
+  top: 10%;
+  left:70%;
+  width:90em; /* Tamaño de la imagen */
+  height: auto; /* Mantiene la proporción de la imagen */
+  transform: translateX(-50%);
+  z-index: 1; /* Asegura que la imagen esté sobre la imagen de fondo y la superposición */
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    position: absolute;
+    top: 70%;
+    left:50%;
+    width:100%; /* Tamaño de la imagen */
+  }
+  .hero-content {
+    position: absolute;
+    top: 45%;
+    left:50%;
+    z-index: 2; /* Asegura que el contenido esté sobre la superposición */
+  }
+}
