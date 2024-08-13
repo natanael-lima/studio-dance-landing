@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import '../index.css'; // Asegúrate de importar el archivo CSS aquí
 //import dancer1 from '../assets/images/img-p.png'; 
 //import dancer2 from '../assets/images/img-i.webp'; 
 import dancer3 from '../assets/images/img-a.png'; // Ajusta la ruta si es necesario
@@ -25,21 +26,21 @@ export default function Class() {
     <section id="class" className="p-8 bg-zinc-50 flex flex-col lg:h-screen">
       <h2 className="text-2xl font-bold mb-4">Clases</h2>
       {/* Contenedor para pantallas grandes */}
-      <div className="hidden md:flex flex overflow-x-hidden  gap-4 h-[100%]">
+      <div className="hidden md:flex flex overflow-x-hidden h-[100%]">
         {['Principiante', 'Medio', 'Avanzado'].map(category => (
           <div
             key={category}
             className={`transition-all duration-300 ease-in-out cursor-pointer flex-shrink-0 h-full p-4 rounded-lg bg-gray-500 flex flex-col justify-between ${getBackgroundColor(category)} ${
-              expanded === category ? 'w-[50%]' : 'flex-grow'
+              expanded === category ? 'w-[60%]' : 'flex-grow'
             }`}
             onClick={() => handleExpand(category)}
           >
             <h3 className="text-xl font-semibold text-primary">Danza Contemporánea {category}</h3>
-            <div className="flex items-center">
+            <div className="flex items-center"> 
               <img 
                 src={dancer3} 
                 alt="Dancer" 
-                className="w-32 h-32 object-cover mr-4 hidden md:block" 
+                className=" w-32 h-32 object-cover mr-4 hidden md:block" 
               />
               <div className="flex-1">
                 <h3 className="text-2xl font-semibold mb-2">{category}</h3>

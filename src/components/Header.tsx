@@ -78,7 +78,7 @@ export default function Header() {
                 CLASES
               </button>
               <button onClick={() => scrollToSection('teacher')}className="text-rose-900 hover:bg-rose-100 px-4 py-2 rounded-full transition-colors duration-300 ease-in-out">
-                PROFE
+                PROFESORES
               </button>
               <button onClick={() => scrollToSection('about')} className="text-rose-900 hover:bg-rose-100 px-4 py-2 rounded-full transition-colors duration-300 ease-in-out">
                 SOBRE NOSOTROS
@@ -102,7 +102,7 @@ export default function Header() {
             CLASES
           </button>
           <button onClick={() => scrollToSection('teacher')} className="text-zinc-500 hover:text-zinc-800 px-3 py-2 rounded-full transition-colors duration-300 ease-in-out">
-            PROFE
+            PROFESORES
           </button>
           <button onClick={() => scrollToSection('about')} className="text-zinc-500 hover:text-zinc-800  px-3 py-2 rounded-full transition-colors duration-300 ease-in-out">
             SOBRE NOSOTROS

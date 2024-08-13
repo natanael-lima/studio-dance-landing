@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-        <footer className="bg-zinc-50">
+        <footer className="bg-white">
         <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-md">
             <strong className="block text-center text-xl font-bold text-gray-900 sm:text-3xl">
@@ -105,74 +105,17 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left">
-                <div>
-                <strong className="font-medium text-gray-900"> Services </strong>
-
-                <ul className="mt-6 space-y-1">
-                    <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Marketing </a>
-                    </li>
-
-                    <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
-                        Graphic Design
-                    </a>
-                    </li>
-
-                    <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
-                        App Development
-                    </a>
-                    </li>
-
-                    <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
-                        Web Development
-                    </a>
-                    </li>
-                </ul>
-                </div>
+            <div className="grid grid-cols-1 gap-8 text-center lg:grid-cols-4 lg:text-left">
+                
 
                 <div>
-                <strong className="font-medium text-gray-900"> About </strong>
-
-                <ul className="mt-6 space-y-1">
-                    <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> About </a>
-                    </li>
-
-                    <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Careers </a>
-                    </li>
-
-                    <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> History </a>
-                    </li>
-
-                    <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Our Team </a>
-                    </li>
-                </ul>
+                <strong className="font-medium text-gray-900"> <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Inicio </a></strong>
                 </div>
+                <div><strong className="font-medium text-gray-900"> <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> About </a></strong></div>
+                <div><strong className="font-medium text-gray-900"> <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Class </a></strong></div>
+                <div><strong className="font-medium text-gray-900"> <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Teachers </a></strong></div>
 
-                <div>
-                <strong className="font-medium text-gray-900"> Support </strong>
-
-                <ul className="mt-6 space-y-1">
-                    <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> FAQs </a>
-                    </li>
-
-                    <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Contact </a>
-                    </li>
-
-                    <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Live Chat </a>
-                    </li>
-                </ul>
-                </div>
+            
             </div>
             </div>
 

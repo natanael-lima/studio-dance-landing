@@ -45,6 +45,15 @@
   z-index: 1; /* Asegura que la imagen esté sobre la imagen de fondo y la superposición */
 }
 
+.class-image {
+  top: 40%;
+  left:50%;
+  width:20em; /* Tamaño de la imagen */
+  height: auto; /* Mantiene la proporción de la imagen */
+  transform: translateX(-0%);
+  z-index: 55; /* Asegura que la imagen esté sobre la imagen de fondo y la superposición */
+}
+
 @media (max-width: 768px) {
   .hero-image {
     position: absolute;

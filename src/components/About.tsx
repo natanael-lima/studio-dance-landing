@@ -15,9 +15,9 @@ export default function About() {
             </div>
           </div>
 
-          <div className="relative flex items-center bg-gray-100">
+          <div className="relative flex items-center bg-white">
             <span
-              className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"
+              className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-white"
             ></span>
 
             <div className="p-8 sm:p-16 lg:p-24">
