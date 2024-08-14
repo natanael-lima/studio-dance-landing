@@ -14,7 +14,7 @@ export default function Avanzado() {
         <div className="flex overflow-x-auto space-x-7 px-2">
 
             {/* Tarjeta 1*/}
-            <a href="#" className="group relative block bg-black min-w-[280px] sm:min-w-[350px] ">
+            <div className="group relative block bg-black min-w-[280px] sm:min-w-[350px] ">
               <img
                 alt=""
                 src="https://p1.pxfuel.com/preview/240/130/439/dance-dancer-dancing-woman-girl-elegance.jpg"
@@ -38,9 +38,9 @@ export default function Avanzado() {
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           {/* Tarjeta 2 */}
-          <a href="#" className="group relative block bg-black min-w-[280px] sm:min-w-[350px] ">
+          <div className="group relative block bg-black min-w-[280px] sm:min-w-[350px] ">
               <img
                 alt=""
                 src="https://www.diariodesanse.com/wp-content/uploads/2024/02/Claudia-Avalos.jpg"
@@ -67,9 +67,9 @@ export default function Avanzado() {
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           {/* Tarjeta 3 */}
-          <a href="#" className="group relative block bg-black min-w-[280px] sm:min-w-[350px] ">
+          <div className="group relative block bg-black min-w-[280px] sm:min-w-[350px] ">
               <img
                 alt=""
                 src="https://transformtheworldartistically.wordpress.com/wp-content/uploads/2013/08/ace_balletireland_scheherazade_2_018.jpg"
@@ -95,9 +95,9 @@ export default function Avanzado() {
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           {/* Tarjeta 4 */}
-          <a href="#" className="group relative block bg-black min-w-[280px] sm:min-w-[350px]">
+          <div className="group relative block bg-black min-w-[280px] sm:min-w-[350px]">
               <img
                 alt=""
                 src="https://media.istockphoto.com/id/1152417954/photo/young-graceful-female-ballet-dancer-dancing-in-mixed-light.jpg?s=612x612&w=0&k=20&c=fnrtFxHP4uRZUf0lCVOYkN_mL-MxgU2yZ-5BQI-85hU="
@@ -123,7 +123,7 @@ export default function Avanzado() {
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           {/* Tarjeta 5 */}
           <a href="#" className="group relative block bg-black min-w-[280px] sm:min-w-[350px]">
               <img

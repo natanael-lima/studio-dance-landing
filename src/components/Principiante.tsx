@@ -13,7 +13,7 @@ export default function Intermedio() {
         <div className="flex overflow-x-auto space-x-5 px-5">
 
             {/* Tarjeta 1*/}
-            <a href="#" className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
+            <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
               <img
                 alt="Foto"
                 src="https://images.pexels.com/photos/20432873/pexels-photo-20432873/free-photo-of-little-ballerina-in-black-and-white.jpeg"
@@ -37,9 +37,9 @@ export default function Intermedio() {
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           {/* Tarjeta 2 */}
-          <a href="#" className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
+          <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
               <img
                 alt=""
                 src="https://img.freepik.com/foto-gratis/silueta-hermosa-bailarina-bailando-velo-sobre-fondo-azul-oscuro_155003-31548.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1723248000&semt=ais_hybrid"
@@ -66,9 +66,9 @@ export default function Intermedio() {
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           {/* Tarjeta 3 */}
-          <a href="#" className="group relative block bg-black min-w-[300px] sm:min-w-[300px]  ">
+          <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px]  ">
               <img
                 alt="foto"
                 src="https://img.freepik.com/foto-gratis/joven-bailarina-hermosa-vestido-beige-bailando-pared-negra_155003-4067.jpg"
@@ -94,9 +94,9 @@ export default function Intermedio() {
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           {/* Tarjeta 4 */}
-          <a href="#" className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
+          <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
               <img
                 alt="foto"
                 src="https://png.pngtree.com/background/20231126/original/pngtree-silhouetted-ballet-dancer-a-small-girl-in-ballerina-attire-dancing-photo-picture-image_6584573.jpg"
@@ -125,7 +125,7 @@ export default function Intermedio() {
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
         </div>
       </div>
     </section>

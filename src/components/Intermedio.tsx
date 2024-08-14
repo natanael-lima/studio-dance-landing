@@ -13,7 +13,7 @@ export default function Intermedio() {
         <div className="flex overflow-x-auto space-x-5 px-5">
 
             {/* Tarjeta 1*/}
-            <a href="#" className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
+            <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
               <img
                 alt="foto"
                 src="https://st.depositphotos.com/20363444/i/600/depositphotos_543134244-stock-photo-ballet-master-showing-choreographic-element.jpg"
@@ -37,9 +37,9 @@ export default function Intermedio() {
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           {/* Tarjeta 2 */}
-          <a href="#" className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
+          <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
               <img
                 alt="foto"
                 src="https://www.shutterstock.com/image-photo/pretty-young-girl-boy-sitting-600nw-1218026314.jpg"
@@ -66,9 +66,9 @@ export default function Intermedio() {
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           {/* Tarjeta 3 */}
-          <a href="#" className="group relative block bg-black min-w-[300px] sm:min-w-[300px]  ">
+          <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px]  ">
               <img
                 alt=""
                 src="https://static01.nyt.com/images/2023/05/24/arts/NYCB-season-highlights-03/NYCB-season-highlights-03-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
@@ -94,9 +94,9 @@ export default function Intermedio() {
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           {/* Tarjeta 4 */}
-          <a href="#" className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
+          <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
               <img
                 alt="foto"
                 src="https://img.freepik.com/foto-gratis/joven-bailarina-hermosa-vestido-beige-bailando-pared-negra_155003-4067.jpg"
@@ -125,7 +125,7 @@ export default function Intermedio() {
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
         </div>
       </div>
     </section>
