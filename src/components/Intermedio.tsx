@@ -13,7 +13,7 @@ export default function Intermedio() {
         <div className="flex overflow-x-auto space-x-5 px-5">
 
             {/* Tarjeta 1*/}
-            <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
+            <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px] lg:h-[600px] h-[480px] ">
               <img
                 alt="foto"
                 src="https://st.depositphotos.com/20363444/i/600/depositphotos_543134244-stock-photo-ballet-master-showing-choreographic-element.jpg"

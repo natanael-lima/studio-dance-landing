@@ -10,7 +10,7 @@ export default function Intermedio() {
 
       {/* Contenedor de las tarjetas */}
       <div className="relative overflow-hidden">
-        <div className="flex overflow-x-auto space-x-5 px-5">
+        <div className="flex lg:overflow-x-auto md:lg:overflow-x-auto overflow-x-auto space-x-5 px-5">
 
             {/* Tarjeta 1*/}
             <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
@@ -39,7 +39,7 @@ export default function Intermedio() {
               </div>
             </div>
           {/* Tarjeta 2 */}
-          <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
+          <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px]">
               <img
                 alt=""
                 src="https://img.freepik.com/foto-gratis/silueta-hermosa-bailarina-bailando-velo-sobre-fondo-azul-oscuro_155003-31548.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1723248000&semt=ais_hybrid"
@@ -68,7 +68,7 @@ export default function Intermedio() {
               </div>
             </div>
           {/* Tarjeta 3 */}
-          <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px]  ">
+          <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
               <img
                 alt="foto"
                 src="https://img.freepik.com/foto-gratis/joven-bailarina-hermosa-vestido-beige-bailando-pared-negra_155003-4067.jpg"
@@ -96,7 +96,7 @@ export default function Intermedio() {
               </div>
             </div>
           {/* Tarjeta 4 */}
-          <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px] ">
+          <div className="group relative block bg-black min-w-[300px] sm:min-w-[300px] lg:h-[600px] h-[480px]">
               <img
                 alt="foto"
                 src="https://png.pngtree.com/background/20231126/original/pngtree-silhouetted-ballet-dancer-a-small-girl-in-ballerina-attire-dancing-photo-picture-image_6584573.jpg"

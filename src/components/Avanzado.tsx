@@ -14,7 +14,7 @@ export default function Avanzado() {
         <div className="flex overflow-x-auto space-x-7 px-2">
 
             {/* Tarjeta 1*/}
-            <div className="group relative block bg-black min-w-[280px] sm:min-w-[350px] ">
+            <div className="group relative block bg-black min-w-[360px] sm:min-w-[350px] lg:h-[600px] h-[500px]  ">
               <img
                 alt=""
                 src="https://p1.pxfuel.com/preview/240/130/439/dance-dancer-dancing-woman-girl-elegance.jpg"
