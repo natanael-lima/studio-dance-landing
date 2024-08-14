@@ -29,6 +29,9 @@ export default function About() {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae! Quidem est
                 esse numquam odio deleniti, beatae, magni dolores provident quaerat totam eos, aperiam
                 architecto eius quis quibusdam fugiat dicta.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae! Quidem est 
+                esse numquam odio deleniti, beatae, magni dolores provident quaerat totam eos, aperiam 
+                architecto eius quis quibusdam fugiat dicta.
               </p>
 
               <Button content="Leer Mas"/>

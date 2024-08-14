@@ -22,7 +22,7 @@
   height: 100vh; /* Altura completa de la vista */
   width: 100%; /* Ancho completo */
   overflow: hidden; /* Oculta cualquier contenido que se desborde del contenedor */
-  background: linear-gradient(100deg,#ffe1e1,#feffe7);
+  background: linear-gradient(120deg,#fff0f0,#feffe1);
 }
 
 .hero-content {
@@ -43,6 +43,7 @@
   height: auto; /* Mantiene la proporción de la imagen */
   transform: translateX(-50%);
   z-index: 1; /* Asegura que la imagen esté sobre la imagen de fondo y la superposición */
+  opacity: 60%;
 }
 
 .class-image {
@@ -57,14 +58,26 @@
 @media (max-width: 768px) {
   .hero-image {
     position: absolute;
-    top: 70%;
+    top: 60%;
     left:50%;
     width:100%; /* Tamaño de la imagen */
   }
   .hero-content {
     position: absolute;
-    top: 45%;
+    top: 35%;
     left:50%;
     z-index: 2; /* Asegura que el contenido esté sobre la superposición */
   }
+}
+
+.card {
+  filter: grayscale(100%);
+}
+
+.card:hover {
+  filter: none;
+}
+
+.card:hover ~ .card {
+  filter: grayscale(100%);
 }

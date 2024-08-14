@@ -6,7 +6,7 @@ interface ButtonBorderProps {
 
 export default function ButtonBorder({ content }: ButtonBorderProps) {
   return (
-    <a href="#" className="mt-8 inline-block rounded-full border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500">
+    <a href="#" className="mt-8 inline-block text-center rounded-full border border-rose-600 bg-rose-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-rose-600 focus:outline-none focus:ring active:text-rose-500">
      {content}
     </a>
   )

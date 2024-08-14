@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
-
+import DropdownButton from './DropdownButton ';
+import logo from '../assets/images/logo-dance.png'; // Ajusta la ruta si es necesario
+import DropdownButtonMobile from './DropdownButtonMobile';
 export default function Header() {
   const [scrolled, setScrolled] = useState<boolean>(false);
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
@@ -27,7 +29,7 @@ export default function Header() {
         {/* Logo */}
         <div className="text-xl font-bold">
           <button onClick={() => scrollToSection('home')} className={`hidden lg:block`}>
-            <img src="https://img.icons8.com/hatch/64/dance-with-devil.png" alt="dance-with-devil" className="h-8 w-auto" />
+            <img src={logo} alt="dance-with-devil" className="h-8 w-auto" />
           </button>
         </div>
 
@@ -74,9 +76,7 @@ export default function Header() {
               <button onClick={() => scrollToSection('home')} className="text-rose-900 hover:bg-rose-100 px-4 py-2 rounded-full transition-colors duration-300 ease-in-out">
                 INICIO
               </button>
-              <button onClick={() => scrollToSection('class')} className="text-rose-900 hover:bg-rose-100 px-4 py-2 rounded-full transition-colors duration-300 ease-in-out">
-                CLASES
-              </button>
+              <DropdownButtonMobile content="CLASES"/>
               <button onClick={() => scrollToSection('teacher')}className="text-rose-900 hover:bg-rose-100 px-4 py-2 rounded-full transition-colors duration-300 ease-in-out">
                 PROFESORES
               </button>
@@ -98,9 +98,10 @@ export default function Header() {
           <button onClick={() => scrollToSection('home')} className=" text-zinc-500 hover:text-zinc-800 px-3 py-2 rounded-full transition-colors duration-300 ease-in-out">
             INICIO
           </button>
-          <button onClick={() => scrollToSection('class')} className="text-zinc-500 hover:text-zinc-800 px-3 py-2 rounded-full transition-colors duration-300 ease-in-out">
+          <DropdownButton content="CLASES"/>
+          {/*<button onClick={() => scrollToSection('class')} className="text-zinc-500 hover:text-zinc-800 px-3 py-2 rounded-full transition-colors duration-300 ease-in-out">
             CLASES
-          </button>
+          </button>*/}
           <button onClick={() => scrollToSection('teacher')} className="text-zinc-500 hover:text-zinc-800 px-3 py-2 rounded-full transition-colors duration-300 ease-in-out">
             PROFESORES
           </button>
